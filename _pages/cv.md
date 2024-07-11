@@ -25,7 +25,7 @@ Selected Research Projects
   * Proposed a SNN for discriminating electromyography (EMG) signals corresponding to different gestures (based on the ROSHAMBO dataset). The SNN learns through surrogate gradient descent. A hardware implementation of the model in inference only mode was proposed, and the performance degradation due to the non-idealities of the underlying non-volatile memory device that stores the weights was studied. 
  
 *  Analog Neural Network, with Prof. Debanjan Bhowmik, _IIT Bombay_ (Fall 2021 - Spring 2023)
-   *  Designed hardware accelerators for non-spiking artificial neural networks using non-volatile emerging memory devices. Used crossbar arrays to perform vector multiplications in O(1) time, using spintronic devices that store network weights or parameters. A custom learning algorithm involving quantization and thresholding was devised due to limited device memory. Effect of the non-ideal behaviour of the memory device on training and inference of a FCNN and CNN was studied. Circuit level simulation was performed on Cadence Virtuoso, behavioral simulation was done on python. The papers based on this work can be found [here](/_publications/demonstration_synaptic_behavior.md) and [here](/_publications/impact_of_defects.md).
+   *  Designed hardware accelerators for non-spiking artificial neural networks using non-volatile emerging memory devices. Used crossbar arrays to perform vector multiplications in O(1) time, using spintronic devices that store network weights or parameters. A custom learning algorithm involving quantization and thresholding was devised due to limited device memory. Effect of the non-ideal behaviour of the memory device on training and inference of a FCNN and CNN was studied. Circuit level simulation was performed on Cadence Virtuoso, behavioral simulation was done on python. The papers based on this work can be found [here](/publications/demonstration_synaptic_behavior.md) and [here](/publications/impact_of_defects.md).
   
 * Virtual Brain Simulation, with Prof. Saurabh Gandhi, _IIT Delhi_ (Fall 2023)
   * Aimed to investigate brain structural connectivity changes in patients with Alzheimer’s Disease. The goal was to virtually stimulate a brain model with transcranial magnetic stimulation (TMS) and check for differences in EEG responses between healthy individuals and those afflicted with Alzheimer's disease. We concluded that significant differences emerge in the EEG response of certain channels, when subjected to TMS of the temporal lobe.
@@ -43,22 +43,20 @@ Selected Research Projects
   * IIT Delhi
   * Supervisor: Prof. Saurabh Gandhi
 
+* <span style="color: red;"> Summer 2023: Data Scientist, Ripik AI </span>
+
+* <span style="color: red;"> Winter 2022: Hardware Engineer Intern, Aeronautical Development Establishment, DRDO</span>
+
 * Summer 2022: Research Assistant, CANlab
   * Hong Kong University
   * Supervisor: Prof. Can Li
  
-* <span style="color: red;"> Summer 2023: Data Scientist, Ripik AI </span>
-
-* <span style="color: red;"> Winter 2023: Hardware Engineer Intern, Aeronautical Development Establishment, DRDO</span>
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: Python, C++, C, MATLAB
+* Frameworks: Tensorflow, PyTorch, Brian2, SNNTorch, Pandas, Numpy
+* Tools: Cadence EDA, LTSpice scripting, Arduino
 
 Publications
 ======
@@ -78,6 +76,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Additional Interests
 ======
-* Currently signed in to 43 different slack teams
+* Basketball, Gardening (blog soon!), Endurance Running, Cooking
