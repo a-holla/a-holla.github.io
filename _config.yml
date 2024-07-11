@@ -15,6 +15,7 @@ description              : &description "personal description"
 url                      : https://a-holla.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "a-holla/a-holla.github.io"
+skin                     : "dark"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,8 +25,8 @@ author:
   avatar           : "IMG_1670.jpg"
   name             : "Amod Holla"
   pronouns         : # example: "she/her"  
-  bio              : "Circuits and Cognitive Modelling!"
-  location         : "Earth"
+  bio              : "Circuits and Cognitive Modeling!"
+  location         : "West Lafayette, Indiana"
   employer         : "Purdue University"
   uri              : # URL
   email            : "aholla@purdue.edu" 
