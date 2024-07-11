@@ -33,9 +33,7 @@ Selected Research Projects
 * Random Forests for Medical Applications, with Prof. Can Li, _HKU_ (Summer 2022)
   * Semantic segmentation of tumor regions in human kidneys using random forests as a viable alternative to CNNs. Utilized advanced image processing algorithms to extract useful features, and performed selection of best features. Explored using random forests combined with CNNs for increasing segmentation accuracy. Random Forests train faster than CNNs at the cost of accuracy, the hybrid RF-CNN seemed to be the best solution in resource constrained situations.
 
-
 <span style="color: red;">Work</span> and Research Experience
-
 ======
 * December 2021 - June 2024: Research Assistant, NAITS Group
   * IIT Delhi/Bombay
