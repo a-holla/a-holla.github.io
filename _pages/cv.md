@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 A compact PDF version of the CV can be found [here](/files/CV_new.pdf). (Current upto first semester, senior year at IIT-D)
+
 Education
 ======
 * B.Tech. in Electrical Engineering, Indian Institute of Technology Delhi, 2024 
@@ -48,13 +49,9 @@ Selected Research Projects
   * Hong Kong University
   * Supervisor: Prof. Can Li
  
-<span style="color: red;">
-* Summer 2023: Data Scientist, Ripik AI
-</span>
+* <span style="color: red;"> Summer 2023: Data Scientist, Ripik AI </span>
 
-<span style="color: red;">
-* Winter 2023: Hardware Engineer Intern, Aeronautical Development Establishment, DRDO
-</span>
+* <span style="color: red;"> Winter 2023: Hardware Engineer Intern, Aeronautical Development Establishment, DRDO</span>
   
 Skills
 ======
