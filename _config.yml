@@ -21,14 +21,14 @@ repository               : "a-holla/a-holla.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_1670.png"
+  avatar           : "IMG_1670.jpg"
   name             : "Amod Holla"
   pronouns         : # example: "she/her"  
-  bio              : "Incoming Ph.D. student at the Centre for Brain Inspired Computing, Purdue University, West Lafayette"
+  bio              : "Circuits and Cognitive Modelling!"
   location         : "Earth"
   employer         : "Purdue University"
   uri              : # URL
-  email            : "aholla@purdue.edu, amod.holla@gmail.com (personal)" 
+  email            : "aholla@purdue.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
