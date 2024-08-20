@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first yeat Ph.D. student at the [Nanoelectronics Research Laboratory (NRL)](https://engineering.purdue.edu/NRL), Purdue University. I did my undergraduate studies at the Department of Electrical Engineering, Indian Institute of Technology, Delhi. My research interests include neuroengineering, neuromorphic computing, analog circuit design, and cognitive modeling. In the past, I have worked as a research intern at the [CANLab, HKU](https://canlab.hku.hk/), as a research assistant with [Prof. Debanjan Bhowmik](https://www.ee.iitb.ac.in/web/people/debanjan-bhowmik/), and as a research assistant with [Prof. Saurabh Gandhi](https://web.iitd.ac.in/~gsaurabhr/). My publications are enumerated [here](/publications/) and my CV is [here](/cv/).
+I am a first year Ph.D. student at the [Nanoelectronics Research Laboratory (NRL)](https://engineering.purdue.edu/NRL), Purdue University. I did my undergraduate studies at the Department of Electrical Engineering, Indian Institute of Technology, Delhi. My research interests include neuroengineering, neuromorphic computing, analog circuit design, and cognitive modeling. In the past, I have worked as a research intern at the [CANLab, HKU](https://canlab.hku.hk/), as a research assistant with [Prof. Debanjan Bhowmik](https://www.ee.iitb.ac.in/web/people/debanjan-bhowmik/), and as a research assistant with [Prof. Saurabh Gandhi](https://web.iitd.ac.in/~gsaurabhr/). My publications are enumerated [here](/publications/) and my CV is [here](/cv/).
 
 News
 ------
