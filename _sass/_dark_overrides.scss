@@ -1,0 +1,297 @@
+/* ==========================================================================
+   Dark theme overrides
+   ========================================================================== */
+
+
+/*
+   General
+   ========================================================================== */
+
+html,
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+
+/*
+   Masthead
+   ========================================================================== */
+
+.masthead {
+  background: $background-color;
+  border-bottom: 1px solid $border-color;
+}
+
+.greedy-nav {
+  background: $background-color;
+
+  a {
+    color: $masthead-link-color;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
+  button {
+    background-color: #343a43;
+    color: $text-color;
+
+    &:hover {
+      background-color: #424a56;
+    }
+  }
+}
+
+
+/*
+   Mobile navigation dropdown
+   ========================================================================== */
+
+.greedy-nav .hidden-links {
+  background: #202329;
+  border: 1px solid $border-color;
+  box-shadow: 0 4px 14px rgba(#000, 0.55);
+
+  li {
+    border-bottom-color: $border-color;
+  }
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $link-color-hover;
+      background: #2a2e36;
+    }
+  }
+
+  &:before {
+    border-color: $border-color transparent;
+  }
+
+  &:after {
+    border-color: #202329 transparent;
+  }
+}
+
+
+/*
+   Sidebar / author profile
+   ========================================================================== */
+
+.author__name,
+.author__bio,
+.author__pronouns {
+  color: $text-color;
+}
+
+.author__urls {
+  background: #202329;
+  color: $text-color;
+  border-color: $border-color;
+  box-shadow: 0 4px 14px rgba(#000, 0.55);
+
+  &:before {
+    border-color: $border-color transparent;
+  }
+
+  &:after {
+    border-color: #202329 transparent;
+  }
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+
+  @include breakpoint($large) {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+
+/*
+   Buttons
+   ========================================================================== */
+
+.btn {
+  background-color: #343a43;
+  color: #f1f3f5 !important;
+
+  &:hover {
+    background-color: #424a56;
+    color: #fff !important;
+  }
+}
+
+.btn--inverse {
+  color: $text-color !important;
+  background-color: #23272e;
+  border: 1px solid $border-color !important;
+
+  &:hover {
+    color: #fff !important;
+    background-color: #343a43;
+    border-color: #596270 !important;
+  }
+}
+
+.btn--info {
+  background-color: #426fa5;
+
+  &:hover {
+    background-color: #507fb8;
+  }
+}
+
+
+/*
+   Table of contents
+   ========================================================================== */
+
+.toc {
+  color: $text-color;
+  background-color: #202329;
+  border-color: $border-color;
+
+  .nav__title {
+    color: #fff;
+    background: #343a43;
+  }
+}
+
+.toc__menu {
+  a {
+    color: $text-color;
+    border-bottom-color: $border-color;
+
+    &:hover {
+      color: $link-color-hover;
+      background: #2a2e36;
+    }
+  }
+}
+
+
+/*
+   Forms
+   ========================================================================== */
+
+input,
+textarea,
+select {
+  color: $text-color;
+  background-color: #23272e;
+  border-color: $border-color;
+
+  &:focus {
+    border-color: $link-color;
+  }
+}
+
+select {
+  background-color: #23272e;
+}
+
+
+/*
+   Code
+   ========================================================================== */
+
+code,
+pre {
+  color: $text-color;
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  background: $code-background-color;
+  border-color: $border-color;
+}
+
+
+/*
+   Tables
+   ========================================================================== */
+
+table {
+  border-color: $border-color;
+}
+
+thead {
+  background-color: #252930;
+  border-bottom-color: $border-color;
+}
+
+th,
+td {
+  border-color: $border-color;
+}
+
+
+/*
+   Page elements
+   ========================================================================== */
+
+.page__content h2,
+hr {
+  border-color: $border-color;
+}
+
+.page__taxonomy-item {
+  border-color: $border-color;
+
+  &:hover {
+    background-color: #23272e;
+  }
+}
+
+
+/*
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  color: $text-color;
+  background-color: #202329;
+  border-top-color: $border-color;
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $text-color;
+  }
+}
+
+
+/*
+   Better selection colors
+   ========================================================================== */
+
+::selection {
+  color: #fff;
+  background: #426fa5;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #426fa5;
+}

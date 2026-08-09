@@ -38,4 +38,8 @@
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
+
+/* dark theme fixes -- must come after normal theme styles */
+@import "dark-overrides";
+
 @import "print";
