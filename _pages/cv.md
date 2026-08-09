@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-A compact PDF version of the CV can be found [here](/files/CV_public.pdf) (Last update: June 2026).
+A compact PDF version of the CV can be found [here](/files/CV_public.pdf) (Last update: August 2026).
 
 Education
 ======

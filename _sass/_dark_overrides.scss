@@ -296,7 +296,9 @@ hr {
   background: #426fa5;
 }
 
-/* Fix university/employer icon in dark mode */
-.social-icons .fa-building-columns {
-  color: #fff;
+/* Force employer/university icon to light color */
+.author__urls .fa-building-columns,
+.author__urls .fa-solid.fa-building-columns,
+.author__urls .fa.fa-building-columns {
+  color: #d8dce2 !important;
 }
