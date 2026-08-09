@@ -8,55 +8,60 @@ redirect_from:
 ---
 
 {% include base_path %}
-A compact PDF version of the CV can be found [here](/files/CV_new.pdf). (Current upto first semester, senior year at IIT-D)
+A compact PDF version of the CV can be found [here](/files/CV_public.pdf) (Last update: June 2026).
 
 Education
 ======
-* B.Tech. in Electrical Engineering, Indian Institute of Technology Delhi, 2024 
-  * GPA: 9.15/10, ranked 4/192
-  * Honoured with IIT Delhi Merit Prize (Top 7% in the department) in semesters 3, 5, 6 and 7
-  
-Selected Research Projects
+* **Ph.D. in Electrical and Computer Engineering**, Purdue University, West Lafayette, expected May 2029
+  * Advisor: Prof. Kaushik Roy
+  * GPA: 4/4
+  * Research: Advanced node memory design; mixed-signal circuit design for compute-in-memory; circuit design with emerging embedded memory technologies; hardware-algorithm co-design for efficient computing
+
+* **B.Tech. in Electrical Engineering**, Indian Institute of Technology Delhi, May 2024
+  * GPA: 9.15/10
+  * Department Rank: 4/192
+  * Best Bachelor Thesis in Electrical Engineering (advisor: Prof: Debanjan Bhowmik)
+
+
+Research Experience
 ======
-* Spiking Neural Networks for Visual Memory Consolidation, with Prof. Debanjan Bhowmik, _IIT Bombay_ (Spring 2024)
-  * Implemented the visuospatial sketchpad of working memory (a division of short term memory) using a network of spiking neurons. Three 'high-level' psychological phenomena associated with the visuospatial sketchpad, namely retention, recapitulation and interference were explained using 'low-level' networks of neurons. The network was divided into three sections: the sensory memory which 'sees' the input image, the visuospatial sketchpad, and the long-term memory. Repeated exposure to input images results in learning of the long-term memory to distinguish different inputs. Analog circuitry was designed and simulated to implement our proposed network in hardware. The github repo and the thesis for this project can be found [here](https://github.com/a-holla/SNN-WM)
-  
-* Spiking Neural Networks for Edge-AI datasets, with Prof. Debanjan Bhowmik, _IIT Bombay_ (Fall 2023)
-  * Proposed a SNN for discriminating electromyography (EMG) signals corresponding to different gestures (based on the ROSHAMBO dataset). The SNN learns through surrogate gradient descent. A hardware implementation of the model in inference only mode was proposed, and the performance degradation due to the non-idealities of the underlying non-volatile memory device that stores the weights was studied. 
- 
-*  Analog Neural Network, with Prof. Debanjan Bhowmik, _IIT Bombay_ (Fall 2021 - Spring 2023)
-   *  Designed hardware accelerators for non-spiking artificial neural networks using non-volatile emerging memory devices. Used crossbar arrays to perform vector multiplications in O(1) time, using spintronic devices that store network weights or parameters. A custom learning algorithm involving quantization and thresholding was devised due to limited device memory. Effect of the non-ideal behaviour of the memory device on training and inference of a FCNN and CNN was studied. Circuit level simulation was performed on Cadence Virtuoso, behavioral simulation was done on python. The papers based on this work can be found [here](/publications/demonstration_synaptic_behavior.md) and [here](/publications/impact_of_defects.md).
-  
-* Virtual Brain Simulation, with Prof. Saurabh Gandhi, _IIT Delhi_ (Fall 2023)
-  * Aimed to investigate brain structural connectivity changes in patients with Alzheimer’s Disease. The goal was to virtually stimulate a brain model with transcranial magnetic stimulation (TMS) and check for differences in EEG responses between healthy individuals and those afflicted with Alzheimer's disease. We concluded that significant differences emerge in the EEG response of certain channels, when subjected to TMS of the temporal lobe.
+* **Tapeout of a 22nm MRAM-Based Compute-in-Memory Accelerator**  
+  _Collaboration with imec, Belgium_ (August 2025 - May 2026)
+  * Part of a four-chip magnetoresistive RAM (MRAM) compute-in-memory prototype tapeout for accelerating DNN matrix-vector multiplications in GlobalFoundries (GF) 22nm.
+  * Designed and laid out one of the four chips, including MRAM arrays, sensing peripherals, and calibration circuits for correcting analog non-idealities.
+  * Built the shared tapeout infrastructure used across all four chips, including the GF 22nm RTL-to-GDSII flow for digital logic and a custom I/O pad ring.
 
-* Random Forests for Medical Applications, with Prof. Can Li, _HKU_ (Summer 2022)
-  * Semantic segmentation of tumor regions in human kidneys using random forests as a viable alternative to CNNs. Utilized advanced image processing algorithms to extract useful features, and performed selection of best features. Explored using random forests combined with CNNs for increasing segmentation accuracy. Random Forests train faster than CNNs at the cost of accuracy, the hybrid RF-CNN seemed to be the best solution in resource constrained situations.
+* **Ternary Gain-cell Compute-in-Memory Macro in 22nm** (January 2026 - May 2026)
+  * Developed a high-density gain-cell analog compute-in-memory macro with ternary bit-cell storage for highly quantized matrix-vector multiplications, reducing ADC conversion overhead for DNN acceleration.
+  * Designed and laid out a 64×64 all-NMOS 3T gain-cell array with compute peripherals and self-calibration circuitry to mitigate transistor-mismatch-induced non-idealities.
+  * Achieved 2.6× higher density than 8T-SRAM for equivalent compute-in-memory functionality.
 
-<span style="color: red;">Work</span> and Research Experience
+* **In-Memory Probabilistic Computing for Combinatorial Optimization**  
+  _Collaboration with imec, Belgium_ (April 2025 - July 2025)
+  * Developed a compute-in-memory architecture for accelerating NP-hard large-scale routing problems.
+  * Designed 8T-SRAM arrays and sense amplifiers integrating spin-based devices for probabilistic computing.
+  * Developed control logic to execute in-memory optimization cycles for large-scale routing problems.
+  * Cycle-accurate evaluations of the ASIC implementation project 7 and 14 orders-of-magnitude improvement in time-to-solution and energy efficiency, respectively, compared with a CPU, with <15% quality loss.
+
+
+Current Research
 ======
-* December 2021 - June 2024: Research Assistant, NAITS Group
-  * IIT Delhi/Bombay
-  * Supervisor: Prof. Debanjan Bhowmik
+* **In-Memory Boolean Operations in 2nm Nanosheet FET Technology**  
+  _Collaboration with imec, Belgium_ (August 2026 - Present)
+  * Developing 8T-SRAM arrays and supporting digital logic in imec 2nm nanosheet FET technology for in-memory Boolean operations, targeting accelerated k-nearest-neighbor search in graph-based combinatorial optimization.
 
-* July 2023 - December 2023: Research Assistant, CSNDL Lab
-  * IIT Delhi
-  * Supervisor: Prof. Saurabh Gandhi
 
-* <span style="color: red;"> Summer 2023: Data Scientist, Ripik AI </span>
-
-* <span style="color: red;"> Winter 2022: Hardware Engineer Intern, Aeronautical Development Establishment, DRDO</span>
-
-* Summer 2022: Research Assistant, CANlab
-  * Hong Kong University
-  * Supervisor: Prof. Can Li
- 
-  
-Skills
+Technical Skills
 ======
-* Languages: Python, C++, C, MATLAB
-* Frameworks: Tensorflow, PyTorch, Brian2, SNNTorch, Pandas, Numpy
-* Tools: Cadence EDA, LTSpice scripting, Arduino
+* **EDA Tools:** Cadence Virtuoso, Genus, Innovus
+* **HDLs & Programming:** Verilog, SystemVerilog, Python, C
+* **Circuit & VLSI Design:** Custom circuit design and layout, synthesis, PNR, STA, RTL-to-GDSII flow, tapeout
+
+
+Relevant Coursework
+======
+* MOS VLSI Design, Advanced VLSI Design, Solid State Devices, AI Hardware, CMOS Analog IC Design
+
 
 Publications
 ======
@@ -72,4 +77,5 @@ Teaching
   
 Additional Interests
 ======
-* Basketball, Gardening (blog soon!), Endurance Running, Cooking
+* Hiking, Traveling, Gardening, Lifting, Cooking, Aviation
+```
