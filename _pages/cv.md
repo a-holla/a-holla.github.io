@@ -63,7 +63,7 @@ Relevant Coursework
 * MOS VLSI Design, Advanced VLSI Design, Solid State Devices, AI Hardware, CMOS Analog IC Design
 
 
-Work and Research Experience
+Work and Research Positions
 ======
 * August 2024 - Present: Graduate Research Assistant, Purdue University
   * Supervisor: Prof. Kaushik Roy
