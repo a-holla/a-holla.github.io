@@ -63,6 +63,28 @@ Relevant Coursework
 * MOS VLSI Design, Advanced VLSI Design, Solid State Devices, AI Hardware, CMOS Analog IC Design
 
 
+Work and Research Experience
+======
+* August 2024 - Present: Graduate Research Assistant, Purdue University
+  * Supervisor: Prof. Kaushik Roy
+
+* December 2021 - June 2024: Research Assistant, NAITS Group
+  * IIT Delhi / IIT Bombay
+  * Supervisor: Prof. Debanjan Bhowmik
+
+* July 2023 - December 2023: Research Assistant, CSNDL Lab
+  * IIT Delhi
+  * Supervisor: Prof. Saurabh Gandhi
+
+* Summer 2023: Data Scientist, Ripik AI
+
+* Winter 2022: Hardware Engineer Intern, Aeronautical Development Establishment, DRDO
+
+* Summer 2022: Research Assistant, CAN Lab (remote)
+  * The University of Hong Kong
+  * Supervisor: Prof. Can Li
+
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -78,4 +100,4 @@ Teaching
 Additional Interests
 ======
 * Hiking, Traveling, Gardening, Lifting, Cooking, Aviation
-```
+

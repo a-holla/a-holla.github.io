@@ -12,10 +12,10 @@ I am a third year Ph.D. student at the [Nanoelectronics Research Laboratory (NRL
 News
 ------
 * **March 2026**: Completed my first tapeout in GlobalFoundries 22nm CMOS + MTJs (imec)! 
-* **February 2026**: [ROSETTA](/publications/ROSETTA) (compute-in-memory using magnetoresistive-RAM) is accepted for publication at JETCAS!
-* **January 2026**: [LIMO](/publications/LIMO), our greatly improved traveling salesman problem accelerator is accepted for publication at npj Unconventional Computing (first first-author paper)!
+* **February 2026**: [ROSETTA](/publications/rosetta) (compute-in-memory using magnetoresistive-RAM) is accepted for publication at JETCAS!
+* **January 2026**: [LIMO](/publications/limo), our greatly improved traveling salesman problem accelerator is accepted for publication at npj Unconventional Computing (first first-author paper)!
 * **June 2025**: Attended DAC as a young fellow
-* **November 2024**: [TAXI](/publications/TAXI), our traveling salesman problem accelerator is accepted for publication at DAC!
+* **November 2024**: [TAXI](/publications/taxi), our traveling salesman problem accelerator is accepted for publication at DAC!
 * **August 2024**: Joined Purdue University as a Ph.D. student and a Graduate Research Assistant at the NRL!
 * **May 2024**: Completed my B.Tech. at IIT-Delhi!
 * **May 2023**: Joined Ripik AI as a Data Scientist Intern
